@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomàs Tortosa Moltó</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/16d9a0f67b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- nav bar menu -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About me</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact me</a></li>
+                <li><a href="#" class="menu-btn"><span class="fas fa-moon" id="theme-button"></span></a></li>
+                <!--<li><a href="#" class="menu-btn" id="switch-lang"><span class="fas fa-flag" id="language-button"></span></a></li>-->
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div lang="es">
+                    <div class="text-1">Hello, my name is</div>
+                    <div class="text-2">Tomàs Tortosa</div>
+                    <div class="text-3">And I am <span>Frontend Developer</span></div>
+                    <a href="#contact">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <svg class="about_blob" viewBox="0 0 200 160" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0" mask-type="alpha">
+                            <path
+                                d="M38.1,-48.8C50.1,-35.3,61.1,-24,65.8,-9.8C70.5,4.5,69,21.7,61,35C53,48.2,38.7,57.6,24.5,59.2C10.3,60.8,-3.7,54.7,-21.4,51.4C-39.2,48.2,-60.8,47.9,-67.9,38C-75.1,28.1,-67.8,8.7,-62,-8.6C-56.2,-25.9,-51.8,-41.2,-41.7,-55C-31.6,-68.8,-15.8,-81.1,-1.4,-79.4C13.1,-77.8,26.1,-62.2,38.1,-48.8Z"
+                                transform="translate(100 100)" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path fill="#BDEAE0"
+                                d="M38.1,-48.8C50.1,-35.3,61.1,-24,65.8,-9.8C70.5,4.5,69,21.7,61,35C53,48.2,38.7,57.6,24.5,59.2C10.3,60.8,-3.7,54.7,-21.4,51.4C-39.2,48.2,-60.8,47.9,-67.9,38C-75.1,28.1,-67.8,8.7,-62,-8.6C-56.2,-25.9,-51.8,-41.2,-41.7,-55C-31.6,-68.8,-15.8,-81.1,-1.4,-79.4C13.1,-77.8,26.1,-62.2,38.1,-48.8Z"
+                                transform="translate(100 100)" />
+                            <image width="150" x='10' y='35' xlink:href="assets/images/profile.png"></image>
+                        </g>
+                    </svg>
+                </div>
+                <div class="column right">
+                    <div class="text">I am Tomas and I love <span>programming</span></div>
+                    <p>
+                        Hello, I introduce myself, I am Tomàs, a boy who loves the world of programming and is
+                        constantly learning. <br>
+                        I have created this website to, in addition to improving my skills, have a small corner where I
+                        can show
+                        what I have learned and what I am learning, <br>
+                        I hope you like it :)
+                    </p>
+                    <div class="buttons">
+                        <a download="" href="assets/pdf/Resume-Tomas-Tortosa-Molto.pdf" target="_blank"><i
+                                class="fas fa-cloud-download-alt"></i> Resume</a>
+                        <a download="" href="https://www.linkedin.com/in/tomas-tortosa-molto/" target="_blank"><i
+                                class="fab fa-linkedin"></i> Linkedin</a>
+                        <a download="" href="https://github.com/tomastomo" target="_blank"><i class="fab fa-github"></i>
+                            Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content">
+                <div class="skills_container container grid">
+                    <!-- Skills 1 React -->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="fas fa-desktop skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">React Developer</h1>
+                                <span class="skills_subtitle">Near 2 years</span>
+                            </div>
+                            <i class="fa fa-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Hooks</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_hooks"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Mui</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_mui"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Redux</h3>
+                                    <span class="skills_number">25%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_redux"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Skills 2 Full-Stack -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fas fa-server skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Full-Stack Developer</h1>
+                                <span class="skills_subtitle">More than 4 years</span>
+                            </div>
+                            <i class="fa fa-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">JavaScript</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">C#</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_c"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Java</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_java"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills 3 Mobile -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fas fa-mobile skills_phone skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Mobile</h1>
+                                <span class="skills_subtitle">More than 1 year</span>
+                            </div>
+                            <i class="fa fa-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">React Native</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_reactNative"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">IOS</h3>
+                                    <span class="skills_number">20%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_ios"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills 4 Learning -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fas fa-graduation-cap skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Learning</h1>
+                                <span class="skills_subtitle">Lifetime</span>
+                            </div>
+                            <i class="fa fa-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">React</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_react"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">React Native</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_reactNative"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">IOS</h3>
+                                    <span class="skills_number">20%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_ios"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills 5 Git -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fas fa-cloud skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Git</h1>
+                                <span class="skills_subtitle">More than 4 years</span>
+                            </div>
+                            <i class="fa fa-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Github</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_github"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">TFS</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_tfs"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Bitbucket</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_bitbucket"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills 6 Agile -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fas fa-users skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Agile</h1>
+                                <span class="skills_subtitle">More than 4 years</span>
+                            </div>
+                            <i class="fa fa-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Kanban</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_jira"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">Scrum</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_asana"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <p>Here I leave my information in case you want to contact me directly</p>
+                </div>
+                <div class="column right">
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="subtitle">Tomàs Tortosa</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="subtitle">Vallada, València</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="head">Phone</div>
+                                <div class="subtitle">+34 655 90 02 34</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">E-mail</div>
+                                <div class="subtitle">tomastormol@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section start -->
+    <footer>
+        <span>Created by <span class="color">Tomàs Tortosa Moltó</span></span>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
