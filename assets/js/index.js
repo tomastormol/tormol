@@ -45,25 +45,31 @@ $(document).ready(function(){
     // Dark-Light
     const themeButton = document.getElementById('theme-button');
     const darkTheme = 'dark-theme';
-    const iconTheme = 'fa-sun';
+    const moonIcon = 'fas fa-moon'
+    const sunIcon = 'fas fa-sun';
 
     themeButton.addEventListener('click', () =>{
         document.body.classList.toggle(darkTheme);
-        themeButton.classList.toggle(iconTheme);
+        if(themeButton.classList.contains('fa-moon')){
+            themeButton.className = sunIcon;
+        }else {
+            themeButton.className = moonIcon;
+        }
+        //themeButton.classList.toggle(iconTheme);
     });
 
     // Language
-    const languageButton = document.getElementById('language-button');
-    const iconLanguageButton = 'fa-flag-usa';
+    // const languageButton = document.getElementById('language-button');
+    // const iconLanguageButton = 'fa-flag-usa';
 
-    languageButton.addEventListener('click', () => {
-        languageButton.classList.toggle(iconLanguageButton);
-    });
+    // languageButton.addEventListener('click', () => {
+    //     languageButton.classList.toggle(iconLanguageButton);
+    // });
 
-    $('.switch-lang').click(function(e) {
-        e.preventDefault();
-        $.i18n().locale = $(this).data('locale');
-        update_texts();
-      });
+    // $('.switch-lang').click(function(e) {
+    //     e.preventDefault();
+    //     $.i18n().locale = $(this).data('locale');
+    //     update_texts();
+    //   });
 
 });
